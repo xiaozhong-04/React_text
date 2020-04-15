@@ -1,10 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const h1 = <h1>我是初始化组件~~~</h1>
+import Function from "./components/Function"
+import Class from "./components/Class"
+
+function App() {
+  return <div>
+    <Function />
+    <hr />
+    <Class />
+  </div>
+}
+
 
 ReactDOM.render(
-  h1,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
