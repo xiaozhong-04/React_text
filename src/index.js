@@ -1,9 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Todo from "./components/Todo"
+import Text from "./components/Text"
+import Text1 from "./components/Text1"
+import Todo1 from "./components/Todo1"
+
 function App() {
   return <div>
-    <h1>我是初始化组件~~~</h1>
+
+    <Todo />
+    <hr />
+    <Text />
+    <hr />
+    <Text1 />
+    <hr />
+    <Todo1 />
   </div>
 }
 
